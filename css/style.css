@@ -22,7 +22,6 @@ header {
     font-size: 1.5rem;
 }
 
-
 nav ul {
     list-style-type: none;   
 }
@@ -48,14 +47,14 @@ nav ul li a{
 }
 
 .star{
-    color: yellow;
+    color: rgb(255, 255, 255);
     font-size: x-large;
     text-align: center;
   }
 
 .star:before,
 .star:after {
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
     content: "";
     display: inline-block;
     height: 5px;
@@ -66,12 +65,10 @@ nav ul li a{
   
 .star:before {
     right: 1em;
-    margin-left: -50%;
   }
   
 .star:after {
     left: 1em;
-    margin-right: -50%;
   }
   
 .sectiontwo img{
