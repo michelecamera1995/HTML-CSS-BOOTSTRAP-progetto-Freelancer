@@ -33,10 +33,31 @@ header ul li a{
     width: 190px ;
 }
 
-.star:before {
+.star{
     color: yellow;
-    height: 60px;
-    font-size: medium;
+    font-size: x-large;
+    text-align: center;
+  }
+
+.star:before,
+.star:after {
+    background-color: yellow;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    position: relative;
+    vertical-align: middle;
+    width: 50px;
+  }
+  
+.star:before {
+    right: 1em;
+    margin-left: -50%;
+  }
+  
+.star:after {
+    left: 1em;
+    margin-right: -50%;
   }
   
 .sectiontwo img{
@@ -52,4 +73,32 @@ header ul li a{
 
 .sectionthree img{
     width: 400px;  
+}
+
+.sectionthree button{
+    padding: 8px 0px;
+    width: 150PX;
+    background-color: transparent;
+    border: 0.5px solid white;
+    color: white;
+    font-weight: bold;
+}
+
+.sectionthree button i{
+    padding: 5%;
+}
+
+form {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.form-group {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 2%;
+}
+
+.form-group1{
+    padding: 2%;
 }
