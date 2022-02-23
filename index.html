@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
@@ -19,15 +20,29 @@
 
         <header class="row">
             <nav class="navbar">
-                <div class="container-fluid">
-                  <h2 class="titlenav navbar-brand">Start Bootstrap</h2>
-                  <ul>
-                      <li class="pe-3 pt-3"><a href="#">PORTFOLIO</a></li>
-                      <li class="pe-3 pt-3"><a href="#">ABOUT</a></li>
-                      <li class="pe-3 pt-3"><a href="#">CONTACT</a></li>
-                  </ul>
+                <div class="container">
+                        <ul class="row col-12 justify-content-between align-items-center">
+                        <!-- Logo text-->
+                        <li class="col-6 col-md-1"><h2 class="titlenav navbar-brand">Start Bootstrap</h2>
+                        </li>
+                        <!-- End logo text-->
+                        <!-- MD LG nav-->
+                        <li class="col-5 col-md-6 d-none  d-sm-block">
+                            <ul class="row col-12 justify-content-center">
+                                <li class="col  col-md-4 col-lg-3 d-inline text-center"><a href="#">PORTFOLIO</a></li>
+                                <li class="col  col-md-4 col-lg-3  d-inline text-center"><a href="#">ABOUT</a></li>
+                                <li class="col  col-md-4 col-lg-3 d-inline text-center"><a href="#">CONTACT</a></li>
+                            </ul>
+                        </li> 
+                        <!-- End MD LG nav-->
+                        <!-- SD nav-->
+                        <li class="col-6 nav-item dropdown d-md-none d-lg-none row justify-content-end">
+                            <a class="nav-link text-white text-end" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-2x fa-bars"></i></a>
+                        </li>
+                        <!-- End SD header-->
+                        </ul>
                 </div>
-              </nav>
+            </nav>
         </header>
 
         <!-- End header-->
@@ -51,27 +66,27 @@
              <div class="container">
                 <div class="row">
                     <h2 class="row justify-content-center">PORTFOLIO</h2>
-                    <div class="col-12 row justify-content-center ">
+                    <div class="col-12 row justify-content-center text-black">
                         <i class="star bi bi-star-fill"></i>
                     </div>
                     <div class="col-12 row gx-2">
                         <figure class="figure col-12 col-md-6 col-lg-4">
-                            <img class=".img-fluid" src="img/cabin.png" alt="">
+                            <img class="img-fluid" src="img/cabin.png" alt="">
                         </figure>
                         <figure class="figure col-12 col-md-6 col-lg-4">
-                            <img class=".img-fluid" src="img/cake.png" alt="">
+                            <img class="img-fluid" src="img/cake.png" alt="">
                         </figure>
                         <figure class="figure col-12 col-md-6 col-lg-4">
-                            <img class=".img-fluid" src="img/circus.png" alt="">
+                            <img class="img-fluid" src="img/circus.png" alt="">
                         </figure>
                         <figure class="figure col-12 col-md-6 col-lg-4">
-                            <img class=".img-fluid" src="img/game.png" alt="">
+                            <img class="img-fluid" src="img/game.png" alt="">
                         </figure>
                         <figure class="figure col-12 col-md-6 col-lg-4">
-                            <img class=".img-fluid" src="img/safe.png" alt="">
+                            <img class="img-fluid" src="img/safe.png" alt="">
                         </figure>
                         <figure class="figure col-12 col-md-6 col-lg-4">
-                            <img class=".img-fluid" src="img/submarine.png" alt="">
+                            <img class="img-fluid" src="img/submarine.png" alt="">
                         </figure>                        
                     </div>
                 </div>
@@ -86,12 +101,12 @@
                     <h2 class="col-12 row justify-content-center">ABOUT</h2>
                     <div class="col-12 row justify-content-center p-2"><i class="star bi bi-star-fill"></i></div>
                     <div class="col-12 row justify-content-center p-5 ">
-                        <div class="col-4"><p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and Javascript as well as optional LESS stylesheets for easy sutomization.</p></div>
-                        <div class="col-4"><p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p></div>
+                        <div class="col-12 col-md-4 col-lg-4"><p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and Javascript as well as optional LESS stylesheets for easy sutomization.</p></div>
+                        <div class="col-12 col-md-4 col-lg-4"><p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p></div>
                     </div>
-                    <div class="col-12 row justify-items-center">
-                        <div class="col-12 offset-5 pt-5">
-                            <button><i class="bi bi-download"></i>Download</button>
+                    <div class="col-12 row justify-content-center">
+                        <div class="col-3">
+                            <a  href="#"><i class="bi bi-download"></i>Download</a>
                         </div>
                     </div>
             </div>

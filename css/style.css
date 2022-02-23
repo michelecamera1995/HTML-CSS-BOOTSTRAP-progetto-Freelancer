@@ -19,7 +19,7 @@ header {
 }
 
 .titlenav{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 nav ul {
@@ -35,7 +35,6 @@ nav ul li a{
     color: white;
     text-decoration: none;
 }
-
 
 .sectionone{
     background-color:#1abc9c ;
@@ -85,8 +84,8 @@ nav ul li a{
     width: 400px;  
 }
 
-.sectionthree button{
-    padding: 8px 0px;
+.sectionthree a{
+    padding: 4px 20px;
     width: 150PX;
     background-color: transparent;
     border: 0.5px solid white;
@@ -94,8 +93,8 @@ nav ul li a{
     font-weight: bold;
 }
 
-.sectionthree button i{
-    padding: 5%;
+.sectionthree a i{
+    padding: 3%;
 }
 
 form {
