@@ -47,29 +47,18 @@ nav ul li a{
 
 .star{
     color: rgb(255, 255, 255);
-    font-size: x-large;
+    font-size: large;
     text-align: center;
   }
 
-.star:before,
-.star:after {
-    background-color: rgb(255, 255, 255);
-    content: "";
-    display: inline-block;
-    height: 5px;
-    position: relative;
-    vertical-align: middle;
-    width: 50px;
+  .borderstarbk{   
+    border-bottom: 2px solid black;
   }
-  
-.star:before {
-    right: 1em;
+
+  .borderstarwh{   
+    border-bottom: 2px solid white;
   }
-  
-.star:after {
-    left: 1em;
-  }
-  
+
 .sectiontwo img{
     width: 400px;
     border-radius: 15%;
